@@ -1,0 +1,202 @@
+body {
+	margin: 0px;
+	background-image: url(../images/210280.jpg);
+}
+
+
+h1, h2, h3 {
+	text-align: center;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	color: rgb(193, 13, 13);
+
+}
+
+p {
+	color: #FFF;
+}
+
+.lien {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: right;
+}
+
+.lien li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.lien a {
+	display: block;
+}
+
+.title {
+	padding-top: 70px;
+}
+
+.size_h2 {
+	cursor: pointer;
+}
+
+#block {
+	position: relative;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	/*background-color: red;*/
+}
+
+#block h2 {
+	/*padding-top: 100px;*/
+	position: relative;
+	top: 100px;
+}
+
+.img {
+	/*position: absolute;*/
+	width: 155px;
+	height: 200px;
+	/*display: block;
+	margin-left: auto;
+	margin-right: auto;*/
+	/*padding-top: 20px;*/
+	/*border: 2px solid black;*/
+	border-radius: 30% 30%;
+	background-color: white;
+}
+
+#education {
+	/*border: 1px solid black;*/
+	top: 10px;
+}
+
+.xp {
+	/*border: 1px solid black;*/
+}
+
+.name {
+	margin-top: 14px;
+}
+
+#info {
+	position: relative;
+	width: 270px;
+	/*border: 1px solid black;*/
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center
+}
+#learn {
+	padding: 10px;
+	border: 3px solid black;
+	box-shadow: 10px 5px 5px #470506;
+	border-radius: 40px;
+	width: 450px;
+	float: left;
+	margin-left: 30px;
+	background-color: #18181A;
+	display: none;
+}
+
+#xp {
+	padding: 10px;
+	border: 3px solid black;
+	box-shadow: 10px 5px 5px #470506;
+	border-radius: 40px;
+	width: 450px;
+	float: right;
+	margin-right: 30px;
+	background-color: #18181A;
+	display: none;
+
+} 
+
+#skills {
+	/*position: absolute;*/
+	width: 700px;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: auto;
+
+}
+
+#skills .svg {
+	/*border: 3px solid black;*/
+	border-radius: 40px;
+	padding-top: 20px;
+}
+
+#box_skills {
+	display: none;
+}
+
+ul {
+	padding: 10px;
+}
+
+.fa-envelope, .fa-phone, .fa-linkedin-in,
+.fa-github {
+	color: rgba(193, 13, 13);
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		font-size: 0.8em;
+	}
+
+	.img {
+		width: 70px;
+		height: 90px;
+		/*padding-top: 40px;*/
+	}
+
+	.title {
+		font-size: 1.6em;
+		font-weight: bold;
+	}
+
+	.size_h2, .name, #skills h2 {
+		font-size: 0.9em;
+		font-weight: bold;
+	} 
+
+	#info {
+		width: 110px;
+	}
+
+	#info p {
+		font-size: 0.6em;
+	}
+
+	#block h2 {
+		top: 50px;
+	}
+
+	#learn {
+		width: 124px;
+		margin: 0px;
+	}
+
+	#xp {
+		width: 124px;
+		margin-right: 0px;
+	}
+
+	#skills {
+	width: 100%;
+	}
+
+	#xp p {
+		font-size: 0.6em;
+	}
+
+	#learn p {
+		font-size: 0.6em;
+	}
+
+}
+
+@media screen and (min-width: 600px) {
